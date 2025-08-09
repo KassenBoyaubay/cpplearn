@@ -1,0 +1,3 @@
+Setup:
+    - check that c++ runs: intellisense, debug (https://code.visualstudio.com/docs/cpp/config-mingw). VSCode/Neovim, windows/arch.
+        - Laptop: windows, VSCode, Strawberry g++ (idk how, where and when I set it up T.T, but it works :D)
