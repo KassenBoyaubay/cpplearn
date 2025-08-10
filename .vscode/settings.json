@@ -1,0 +1,10 @@
+{
+    "files.insertFinalNewline": true,
+    "files.associations": {
+        "*.js": "javascriptreact",
+        "*.sv": "systemverilog",
+        "*.do": "tcl",
+        "xstring": "cpp"
+    }, // c++ std requires
+    "C_Cpp.default.cppStandard": "c++23" // std for intellisense
+}
