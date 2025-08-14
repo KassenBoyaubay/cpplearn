@@ -18,7 +18,9 @@
                 "-Wsign-conversion",
                 "-Werror", // treat warning as error
                 "-std=c++23", // std
-                "${file}",
+                // "${file}",
+                "${fileDirname}\\**.cpp", // all cpp files in same dir, wind
+                // "${fileDirname}/**.cpp", // all cpp files in same dir, unix
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
