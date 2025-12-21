@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "name": "Strawberry GCC",
+      "compilerPath": "C:\\Strawberry\\c\\bin\\g++.exe",
+      "intelliSenseMode": "windows-gcc-x64",
+
+      "cppStandard": "c++23",
+      "cStandard": "c17",
+
+      "includePath": [
+        "${workspaceFolder}\\**",
+        "${fileDirname}\\source\\includes",
+        "C:\\Users\\User\\Desktop\\cpplibraries\\plog-master\\include"
+      ],
+
+      "defines": [],
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "C:\\Users\\User\\Desktop\\cpplibraries\\plog-master\\include"
+        ]
+      }
+    }
+  ],
+  "version": 4
+}

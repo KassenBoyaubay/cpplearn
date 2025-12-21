@@ -12,17 +12,19 @@
                 // "-DNDEBUG", // release build
                 "-pedantic-errors", // turn off compiler extentions
                 "-Wall",
-                "-Weffc++",
+                // "-Weffc++", // doesn't work with plog
                 "-Wextra",
-                "-Wconversion",
-                "-Wsign-conversion",
+                // "-Wconversion", // doesn't work with plog
+                // "-Wsign-conversion", // doesn't work with plog
                 "-Werror", // treat warning as error
                 "-std=c++23", // std
                 // "${file}",
                 "${fileDirname}\\**.cpp", // all cpp files in same dir, wind
                 // "${fileDirname}/**.cpp", // all cpp files in same dir, unix
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-I.\\source\\includes",
+                "-IC:\\Users\\User\\Desktop\\cpplibraries\\plog-master\\include"
             ],
             "options": {
                 "cwd": "${fileDirname}"
