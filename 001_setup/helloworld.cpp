@@ -33,6 +33,7 @@ int main()
     cout << "enter 1 value: " << '\n';
     cin >> t; 
     cout << "you entered " << t;
-    
+    x++;
+    cout << "+1=" << x << "\n";
     cout << endl;
 }
