@@ -10,6 +10,8 @@ void foo(int)
 
 int add(int, int);
 
+// TODO: do something
+//
 int main()
 {
     vector<string> msg {"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};

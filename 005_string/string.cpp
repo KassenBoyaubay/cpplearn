@@ -4,6 +4,13 @@
 int main() {
   using namespace std::string_literals;
 
+  // C-style string literals are const objects that are created at the start of
+  // the program and are guaranteed to exist for the entirety of the program.
+  // Unlike C-style string literals, std::string and std::string_view literals
+  // create temporary objects. These temporary objects must be used immediately,
+  // as they are destroyed at the end of the full expression in which they are
+  // created.
+
   // resolves to
   // std::string { "Hello", 5},
   // which creates a temporary std::string initialized with C-style string
