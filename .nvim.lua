@@ -8,6 +8,7 @@ return {
 		"-ggdb",
 		"-pedantic-errors",
 		"-Wall",
+		"-Wshadow",
 		"-Weffc++",
 		"-Wextra",
 		"-Wconversion",
